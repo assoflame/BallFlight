@@ -51,6 +51,6 @@
 ![](docs/images/main_task/y_x.jpg)
 ![](docs/images/main_task/v.jpg)
 ![](docs/images/main_task/L_angle.jpg)
-![](docs/images/main_task/angel.jpg)
+![](docs/images/main_task/angle.jpg)
 
 Максимальная длина полета достигается при начальном угле 35 градусов.
