@@ -2,12 +2,12 @@ clear;
 clc;
     
 a = 0;
-b = 1000;
-N = (b - a) * 10;
+b = 100;
+N = (b - a) * 1000;
 n = 4;
 v0 = 60;
 
-theta = 20:5:70;
+theta = 20:70;
 
 for i = 1:length(theta)
     alpha = pi * theta(i) / 180;
@@ -17,12 +17,21 @@ for i = 1:length(theta)
     
     [T, Y] = RK4(@func, a, b, y0, N, n);
     
+    disp(theta(i));
+    disp(max(Y(:, 1)));
+
     hold on
-        plot(Y(:, 1), Y(:, 2));
+        plot(T, Y(:, 4));
     hold off
 end
 
-legend('20^o', '25^o', '30^o', '35^o', '40^o', '45^o', '50^o', '55^o', '60^o', '65^o', '70^o');
-xlabel('X');
-ylabel('Y')
-title('Y(X) для разных начальных углов');
+
+xlabel('t, с');
+ylabel('\theta, радианы');
+title('Зависимость угла наклона от времени для разных начальных углов');
+
+
+
+
+
+
