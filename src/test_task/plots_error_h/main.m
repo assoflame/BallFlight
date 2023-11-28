@@ -32,19 +32,22 @@ for N = minN:step:maxN
     i = i + 1;
 end
 
-plot(H, e1);
-title('Зависимость e от h для y_1(t)')
+hold on
+    plot(H, e1);
+hold off
+
+hold on
+    plot(H, e2);
+hold off
+
 xlabel('h');
+ylabel('e');
 
-plot(H, e2);
-title('Зависимость e от h для y_2(t)')
-xlabel('h');
+// semilogx(H, eh1);
+// title('Зависимость e/h^4 от log_{10}h для y_1(t)')
+// xlabel('log_{10}h');
 
-semilogx(H, eh1);
-title('Зависимость e/h^4 от log_{10}h для y_1(t)')
-xlabel('log_{10}h');
-
-semilogx(H, eh2);
-title('Зависимость e/h^4 от log_{10}h для y_2(t)')
-xlabel('log_{10}h');
+// semilogx(H, eh2);
+// title('Зависимость e/h^4 от log_{10}h для y_2(t)')
+// xlabel('log_{10}h');
 

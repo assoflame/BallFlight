@@ -8,4 +8,3 @@ function [dy] = func(t, y)
     dy(3) = -(C*p*S*(y(3)^2))/(2*m) - g*sin(y(4));
     dy(4) = -(g * cos(y(4)))/y(3);
 end
-
