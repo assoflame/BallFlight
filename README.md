@@ -86,10 +86,10 @@ $$\theta_0\in [20;70]$$
 
 ### Получившиеся графики ###
 
-![](docs/images/main_task/y_x.jpg)
-![](docs/images/main_task/v.jpg)
-![](docs/images/main_task/L_angle.jpg)
-![](docs/images/main_task/angle.jpg)
+![](docs/images/main_task/C_main(0.25)/y_x.jpg)
+![](docs/images/main_task/C_main(0.25)/v.jpg)
+![](docs/images/main_task/C_main(0.25)/L_angle.jpg)
+![](docs/images/main_task/C_main(0.25)/angle.jpg)
 
 Максимальная длина полета достигается при начальном угле 43 градуса. Длина полета - 274,879 м.
 
